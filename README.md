@@ -1,6 +1,6 @@
 # SanbercodeQA-Kelompok2
 
-## nama kelompok
+## Nama Kelompok
 Perkenalkan kami dari kelompok 2 - Sanbercode (Quality Assurance)
 Nama Kelompok:
 - I Gde Bayu Priyambada Marayasa
