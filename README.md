@@ -1,7 +1,15 @@
 # SanbercodeQA-Kelompok2
 
+## nama kelompok
+Perkenalkan kami dari kelompok 2 - Sanbercode (Quality Assurance)
+Nama Kelompok:
+- I Gde Bayu Priyambada Marayasa
+- Farah Amalia
+- Mochamad Iqbal Harisuddin
+- Ilham Cahyo Raharjo
+- Amalia Asti Hutami
 
-##Test Plant Document 
+## Test Plant Document 
 ## 1. Pembagian Tugas
 ## 2. Timeline
 ## 3. Jenis dan Versi Browser
