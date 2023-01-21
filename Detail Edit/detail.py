@@ -12,49 +12,49 @@ class TestDetail(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
 
-    # def test_succces_detail(self):
-    #     # step
-    #     # buka browser
-    #     browser = self.browser
-    #     # buka situs
-    #     browser.get("https://itera-qa.azurewebsites.net/")
-    #     browser.maximize_window()
-    #     time.sleep(3)
-    #     # klik menu login
-    #     browser.find_element(
-    #         By.XPATH, "/html/body/nav/div/form/ul/li[2]/a").click()
-    #     time.sleep(2)
-    #     # isi username
-    #     browser.find_element(
-    #         By.ID, "Username").send_keys("ita")
-    #     time.sleep(1)
-    #     # isi password
-    #     browser.find_element(
-    #         By.ID, "Password").send_keys("itu")
-    #     time.sleep(1)
-    #     # klik button login
-    #     browser.find_element(
-    #         By.XPATH, "/html/body/div/div[1]/form/table/tbody/tr[7]/td[2]/input[1]").click()
-    #     time.sleep(2)
-    #     # search
-    #     browser.find_element(
-    #         By.ID, "searching").send_keys("ita")
-    #     time.sleep(1)
-    #     browser.find_element(
-    #         By.XPATH, "/html/body/div/div/form/input[2]").click()
-    #     time.sleep(1)
-    #     # klik button detail
-    #     browser.find_element(
-    #         By.XPATH, "/html/body/div/div/table/tbody/tr[2]/td[7]/a[2]").click()
-    #     time.sleep(2)
-    #     # klik button back to list
-    #     browser.find_element(
-    #         By.XPATH, "/html/body/div/p/a[2]").click()
-    #     time.sleep(2)
-    #     # validasi
-    #     expectedURL = "https://itera-qa.azurewebsites.net/Dashboard"
-    #     actualURL = browser.current_url
-    #     self.assertEquals(expectedURL, actualURL)
+    def test_succces_detail(self):
+        # step
+        # buka browser
+        browser = self.browser
+        # buka situs
+        browser.get("https://itera-qa.azurewebsites.net/")
+        browser.maximize_window()
+        time.sleep(3)
+        # klik menu login
+        browser.find_element(
+            By.XPATH, "/html/body/nav/div/form/ul/li[2]/a").click()
+        time.sleep(2)
+        # isi username
+        browser.find_element(
+            By.ID, "Username").send_keys("ita")
+        time.sleep(1)
+        # isi password
+        browser.find_element(
+            By.ID, "Password").send_keys("itu")
+        time.sleep(1)
+        # klik button login
+        browser.find_element(
+            By.XPATH, "/html/body/div/div[1]/form/table/tbody/tr[7]/td[2]/input[1]").click()
+        time.sleep(2)
+        # search
+        browser.find_element(
+            By.ID, "searching").send_keys("ita")
+        time.sleep(1)
+        browser.find_element(
+            By.XPATH, "/html/body/div/div/form/input[2]").click()
+        time.sleep(1)
+        # klik button detail
+        browser.find_element(
+            By.XPATH, "/html/body/div/div/table/tbody/tr[2]/td[7]/a[2]").click()
+        time.sleep(2)
+        # klik button back to list
+        browser.find_element(
+            By.XPATH, "/html/body/div/p/a[2]").click()
+        time.sleep(2)
+        # validasi
+        expectedURL = "https://itera-qa.azurewebsites.net/Dashboard"
+        actualURL = browser.current_url
+        self.assertEquals(expectedURL, actualURL)
 
     def test_succces_detail_with_blank_field(self):
         # step
